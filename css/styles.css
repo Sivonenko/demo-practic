@@ -1,0 +1,167 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #8f95a5;
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.section-title {
+  color: #000;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: normal;
+}
+/* header */
+.logo {
+  color: #000;
+  font-size: 36px;
+  line-height: normal;
+}
+.logo-part {
+  color: #939393;
+}
+.nav-link {
+  color: #263238;
+  font-weight: 500;
+  line-height: normal;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: tomato;
+}
+.current {
+  color: tomato;
+}
+.header-btn {
+  color: #000;
+  /* font-family: Poppins, sans-serif; */
+  font-family: inherit;
+  font-size: 20px;
+  line-height: normal;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 2px solid #263238;
+  background-color: transparent;
+}
+.header-btn:hover,
+.header-btn:focus {
+  background-color: tomato;
+  color: #fff;
+  border-color: transparent;
+}
+/* hero */
+.hero-title {
+  color: #000;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 1.25;
+}
+.hero-desc {
+  font-size: 24px;
+}
+.hero-btn {
+  color: #fff;
+
+  font-family: inherit;
+  font-size: 36px;
+  line-height: normal;
+  letter-spacing: 0.03em;
+  border-radius: 10px;
+  background: #263238;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #fff;
+  color: #263238;
+}
+/* skills */
+.skills-item {
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+.skills-subtitle {
+  color: #263238;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: normal;
+}
+.skills-desc {
+  font-size: 16px;
+}
+.skills-btn {
+  color: #fff;
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 10px;
+  background-color: #263238;
+  cursor: pointer;
+  border-color: transparent;
+}
+.skills-btn:hover,
+.skills-btn:focus {
+  color: #263238;
+  background-color: #fff;
+}
+/* about */
+.about-text {
+  line-height: 1.8;
+}
+.about-desc {
+  color: #2a3246;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: normal;
+}
+/* pricing */
+.pricing-subtitle {
+  color: #263238;
+
+  font-size: 30px;
+
+  font-weight: 600;
+  line-height: 1.6;
+  text-transform: capitalize;
+}
+.pricing-price {
+  color: #263238;
+  font-size: 24px;
+  line-height: normal;
+}
+.pricing-desc {
+  color: #546269;
+  font-size: 18px;
+  line-height: normal;
+}
+/* contact  */
+.contact-btn {
+  color: #fff;
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  border-radius: 10px;
+  background: #263238;
+}
+.contact-btn:hover,
+.contact-btn:focus {
+  color: #263238;
+  background-color: #fff;
+}
+/* footer */
+.footer-link {
+  color: #8f95a5;
+
+  font-size: 24px;
+
+  line-height: normal;
+  letter-spacing: 0.02em;
+}
